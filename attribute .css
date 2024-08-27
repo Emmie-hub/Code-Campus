@@ -1,0 +1,24 @@
+[class^="fried"]{
+    color: blue;
+}
+
+[class$="beans"]{
+    color: red;
+    font-size: 24px;
+}
+
+[class*="jollof"]{
+    background-color: yellow;
+}
+
+[data-ingredients*="jam"]{
+    font-size: 34px;
+}
+
+[data-ingredients^="scone"]{
+    color: yellow;
+}
+
+[data-ingredients*="toast"]{
+    color:rgb(55, 0, 255);
+}

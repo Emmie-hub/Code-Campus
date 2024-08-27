@@ -1,0 +1,71 @@
+.Godwin p{
+    color: red;
+}
+
+.Godwin>p{
+    font-size: 55px;
+}
+
+h1+p{
+    color: blue;
+}
+
+p+p{
+    background-color: purple;
+}
+
+p+h1{
+    background-color: yellow;
+}
+
+h1+a{
+    font-size: 24px;
+}
+
+h1~a{
+    font-size: 24px;
+}
+
+a:hover{
+    color: red;
+    background-color: yellow;
+}
+
+
+.gen a:link{
+    color: blue;
+    background-color: gray;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.gen a:visited{
+    color: purple;
+    background-color: cadetblue;
+}
+
+.gen a:hover{
+    color: white;
+    font-size: 22px;
+    background-color: black;
+    padding: 7px;
+}
+
+a:active{
+    color: yellow;
+    font-size: 25px;
+}
+
+.esaspenk::first-letter{
+    font-size: 50px;
+    color: blue;
+}
+
+.esaspenk::first-line{
+    font-style: italic;
+    color: yellow;
+}
+
+.pen::after{
+    content:"Mr. Smith"
+}

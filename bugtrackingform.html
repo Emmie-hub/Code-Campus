@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Tracking Form</title>
+</head>
+<body>
+    <div>
+       <h1>Bug Tracker</h1> 
+    </div>
+
+    <form action="">
+        <p>Bug Title*</p>
+
+        <div class="class">
+            <input type="text">
+        </div>
+
+        <p>Issue description*</p>
+        <div class="class">
+            <input type="text">
+        </div>
+
+        <p>Operating System*</p>
+        <div class="operating system">
+            <select name="operating system" id="operating system">
+                <option value="win">Windows</option>
+                <option value="and">Android</option>
+                <option value="lin">Linux</option>
+                <option value="mac">macOS</option>
+                <option value="IOS">IOS</option>
+                <option value="batOS">Batch OS</option>
+                <option value="chrome">ChromeOS</option>
+            </select><br>
+        </div>
+
+        <p>Browser*</p>
+        <input type="radio" name="browser" id="browser">
+        <label for="browser">Internet Explorer</label><br>
+
+        <input type="radio" name="browser" id="browser">
+        <label for="browser">Chrome</label><br>
+
+        <input type="radio" name="browser" id="browser">
+        <label for="browser">Firefox</label><br>
+
+        <input type="radio" name="browser" id="browser">
+        <label for="browser">Safari</label><br>
+
+        <input type="radio" name="browser" id="browser">
+        <label for="browser">Opera</label><br>
+
+        <input type="radio" name="browser" id="browser">
+        <label for="browser">Other</label><br>
+        <div class="class">
+            <input type="text">
+        </div>
+
+        <p>Assigned To*</p>
+        <div class="parts">
+            <select name="parts" id="operating system">
+                <option value="PM">Process Management</option>
+                <option value="File Man">File Management</option>
+                <option value="Net Man">Network Management</option>
+                <option value="MMM">Main Memory Management</option>
+                <option value="SSM">Secondary Storage Management</option>
+                <option value="I/O">I/O Device Management</option>
+                <option value="SM">Security Management</option>
+                <option value="CIS">Command Interpreter System</option>
+            </select>
+        </div>
+
+        <p>Priority*</p>
+        <div class="priority">
+            <select name="priority" id="operating system">
+                <option value="SA">Scheduling algorithm</option>
+                <option value="Sp">Scheduling process according to the priority assigned to each of the process  </option>
+            </select>
+        </div>
+
+        <p>Screenshot*</p>
+        <img src="choose file" alt="image of the bug or operating system">
+
+        <p>Status*</p>
+        <div class="status">
+            <select name="status" id="operating system">
+                <option value="new">New</option>
+                <option value="ready">Ready</option>
+                <option value="running">Running</option>
+                <option value="waiting">Waiting</option>
+                <option value="ter">Terminated</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
